@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background: linear-gradient(225deg, #7400b8, #6930c3, #5e60ce, #5390d9, #4ea8de, #48bfe3, #56cfe1);
+  height: 100vh;
+  width: 100vw;
+  font-family: "JetBrains Mono", monospace;
+}
+body header nav {
+  border-bottom: 2px solid #64dfdf;
+}
+body header nav ul {
+  list-style: none;
+  display: inline-flex;
+  text-decoration: none;
+}
+body header nav ul li {
+  padding-top: 0.5em;
+  padding-left: 14em;
+}
+body main {
+  display: grid;
+  grid-templates-column: 1fr 1fr;
+}
+body main section:first-of-type {
+  grid-column: 1/2;
+  padding-left: 3.7em;
+  padding-top: 16em;
+}
+body main section:first-of-type h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 3em;
+}
+body main section:first-of-type p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8em;
+}
+body main section:last-of-type {
+  grid-column: 2/3;
+  background-color: #006466;
+  padding: 0;
+  margin: 0;
+}
+body main section:last-of-type header {
+  grid-templates-column: 1fr 1fr;
+}
+body main section:last-of-type header h3 {
+  grid-column: 1/2;
+}
+body main section:last-of-type header h2 {
+  grid-column: 1/2;
+}
+body main section:last-of-type header img {
+  grid-column: 2/3;
+  height: 50px;
+}
+body main section:last-of-type ul li {
+  list-style: url("play.png");
+  padding: 5px;
+  padding-left: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
